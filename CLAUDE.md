@@ -48,6 +48,10 @@ The system supports:
 - **Returns policy default**: **30-day returns, buyer pays return shipping**, applied as the default to every new listing on both eBay and Etsy. Owner can override per-listing later if needed.
 - **Categorization axes**: pieces are organized by **type** (necklace, bracelet, brooch, ring, ornament, magnet, pin) and by **era** (Victorian, Art Deco, Mid-Century, 80s, etc.). Maker/designer and material are **not** primary axes in v1, even though the AI-research step may surface them.
 - **Admin login**: assumed single-user (Erica only) for v1 unless changed later. The "customer database" mentioned in conversation is a marketing audience (follower emails), not a login system.
+- **Email service provider**: **Mailchimp**. Use the Mailchimp Marketing API to push new subscribers and to send/track campaigns. Free tier (≤500 contacts) is fine until the list grows.
+- **Newsletter signup placements** (all four enabled in v1): site-wide footer form, homepage modal/popup (frequency-capped — show at most once per visitor per N days; do not nag), dedicated `/subscribe` page, and inline form on each piece-detail page that pre-tags the subscriber by category/era so themed campaigns can target them.
+- **Email cadence**: **ad-hoc only** in v1. Build a "compose blast" feature with list/segment picker; do **not** build an automated weekly-digest cron job.
+- **Post-purchase email capture** (compliant with CAN-SPAM and platform ToS — buyer must opt in): two channels, both enabled. (a) System generates a printable thank-you card per shipment with a QR code/short URL to the subscribe page; (b) automated post-sale message via eBay's and Etsy's seller-to-buyer messaging APIs containing a subscribe link. Never auto-add a buyer to the list without explicit opt-in.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
