@@ -97,6 +97,10 @@ The system supports:
 - **Instagram**: **out of v1 scope.** Erica handles Instagram herself. Do not build cross-posting, Meta API integration, or auto-generated Instagram-format images in v1.
 - **Image alt text**: **deferred in v1** at owner's request. Note: this is a known accessibility gap (screen-reader users + Google Images SEO + ADA lawsuit risk for US ecommerce). Revisit before any meaningful public-launch push; the AI photo-critique infrastructure can generate alt text cheaply when re-enabled.
 - **Cookie / privacy disclosure**: **standard consent banner** at the bottom of the storefront with Accept / Manage options. The Manage panel lets visitors opt out of analytics + personalization cookies (which would disable the cookie-based "curated for you" rail for that visitor). Include a privacy-policy page linked from the footer.
+- **Sold-piece lead capture**: **none.** Sold-piece pages display the piece + a SOLD watermark + link to current inventory; there is no "notify me when similar comes in" form. Lead capture happens through the regular newsletter signup placements only.
+- **Custom orders**: **out of v1 (and likely v2) scope.** Erica is not running a custom-order business; the storefront does not include a "request a custom piece" flow. Buyers who reach out via the contact form are handled ad-hoc by Erica.
+- **Email sender domain**: emails go out from a **custom domain** address (e.g. `newsletter@elmvintage.com`) once the domain is purchased. At launch, the system runs an email-setup wizard that walks Erica through adding SPF, DKIM, and DMARC DNS records at her registrar. Until then, dev/staging emails can use Mailchimp's default sender domain.
+- **Onboarding for the first batch**: when v1 ships, prepare a **per-piece capture checklist** (notes to take, angles to shoot, hallmarks to look for) for the first 10–20 pieces so Erica builds a consistent workflow before scaling.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
