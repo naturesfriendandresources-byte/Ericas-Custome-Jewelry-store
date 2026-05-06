@@ -101,6 +101,10 @@ The system supports:
 - **Custom orders**: **out of v1 (and likely v2) scope.** Erica is not running a custom-order business; the storefront does not include a "request a custom piece" flow. Buyers who reach out via the contact form are handled ad-hoc by Erica.
 - **Email sender domain**: emails go out from a **custom domain** address (e.g. `newsletter@elmvintage.com`) once the domain is purchased. At launch, the system runs an email-setup wizard that walks Erica through adding SPF, DKIM, and DMARC DNS records at her registrar. Until then, dev/staging emails can use Mailchimp's default sender domain.
 - **Onboarding for the first batch**: when v1 ships, prepare a **per-piece capture checklist** (notes to take, angles to shoot, hallmarks to look for) for the first 10–20 pieces so Erica builds a consistent workflow before scaling.
+- **About page**: a public **"About Erica"** page with a photo and short personal story (sourcing approach, why vintage costume jewelry, why ceramic ornaments). Linked from the main nav and the email blast footer; gives buyers a person to trust.
+- **FAQ page**: dedicated FAQ covering the predictable questions: "Why does Buy take me to eBay/Etsy?" / shipping & returns policy / how to care for vintage costume jewelry / how to care for ceramic pieces / how to get notified about new pieces / authenticity disclaimers for vintage. Linked from the footer and from the contact form.
+- **Email design**: **branded HTML** that visually matches the storefront (same fonts, color palette, header treatment). Built as a reusable email template so all blasts stay consistent. Plain-text fallback should still be sent for accessibility and Gmail's clip-detection.
+- **Storefront footer**: rich footer with (a) a newsletter signup form, (b) quick links — About / FAQ / Contact / Privacy, (c) social and platform links — Pinterest, Instagram, eBay store, Etsy store, and (d) a bottom strip with copyright + privacy/terms links.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
