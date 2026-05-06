@@ -36,6 +36,10 @@ The system supports:
 - **Description generation**: **research + AI draft** for vintage pieces (the system attempts to identify hallmarks/designer/era from photos and notes, then proposes a draft Erica edits). For ceramics, AI rewrites owner-supplied facts. Owner always edits before publishing.
 - **Image processing v1**: simpler tools only — crop, rotate, color/exposure adjust, background cleanup. AI-assisted editing (auto-angles, generative cleanup) is planned for a later version, not v1.
 - **Storefront name**: **ELM Vintage**.
+- **Domain**: not registered yet; use a placeholder host (e.g. a Vercel/Netlify/Render subdomain) during development and acquire a real domain just before launch.
+- **Publish flow**: **one-click simultaneous publish** to eBay + Etsy + storefront after the owner approves the draft. No staged/delayed publishing in v1.
+- **Pricing**: **same price on every platform** (single `price` field per piece; no per-platform overrides).
+- **Shipping**: use **platform-calculated shipping** (buyer ZIP + package weight). Therefore each piece's database record must store **package weight** (and likely dimensions) so eBay and Etsy can compute rates at checkout.
 - **Scale target**: medium — 50–300 active listings, 10–30 new pieces per month. Design for this; don't over-engineer for thousands.
 - **Hosting budget**: ~$20–50/month, so paid managed services (managed Postgres, object storage, always-on workers) are acceptable; we are not constrained to free tiers.
 - **Seller accounts**: Erica has active seller accounts on both **eBay** and **Etsy**, but does **not** yet have developer/API access on either. Registering an eBay Developer Program app and an Etsy app (with OAuth) is a prerequisite for any syndication work.
