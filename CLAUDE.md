@@ -56,6 +56,10 @@ The system supports:
 - **Description voice**: **style-reference flow.** Erica will paste 2–3 of her existing favorite listings into a "voice samples" admin setting; every draft prompt includes those samples as the style reference Claude must match. Do **not** hardcode a tone — her voice is the source of truth, captured by example.
 - **Photo capture**: mixed — phone (3–6 MB) for quick listings, dedicated camera (10–20 MB) for special pieces. Upload UX must accept both gracefully; system stores originals and generates web-sized derivatives. Plan for both file-size regimes from day one.
 - **Background cleanup**: hosted API (e.g. **remove.bg** or **Photoroom**), per-photo opt-in via a "remove background" button rather than always-on. Budget ~$0.10–$0.20/image so the cost is bounded by listing volume.
+- **Condition grading**: standard 6-tier vintage scale — **Mint / Excellent / Very Good / Good / Fair / As-Is** — stored as a structured field on every piece, plus a free-text "Condition notes" field for specifics (e.g. "tiny enamel chip on back"). Claude may **propose** a grade from photos as part of the draft; the owner must confirm before publishing.
+- **Storefront aesthetic**: **vintage direction** chosen at the high level; the specific look (warm-editorial vs. antique-shop vs. magazine) is to be picked from real HTML/CSS mockups generated after the stack is scaffolded. Reference shops the owner can browse for inspiration include 1stDibs, Ruby Lane, and curated vintage Etsy shops.
+- **Journal / blog**: **out of v1 scope**. Launch without it; revisit in v2. Do not build a CMS or markdown post system in v1.
+- **Shipping zone**: **US only** in v1. Do not enable international shipping options on eBay or Etsy listings created by the system. (This simplifies shipping config; revisit before any expansion.)
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
