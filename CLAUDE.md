@@ -60,6 +60,9 @@ The system supports:
 - **Storefront aesthetic**: **vintage direction** chosen at the high level; the specific look (warm-editorial vs. antique-shop vs. magazine) is to be picked from real HTML/CSS mockups generated after the stack is scaffolded. Reference shops the owner can browse for inspiration include 1stDibs, Ruby Lane, and curated vintage Etsy shops.
 - **Journal / blog**: **out of v1 scope**. Launch without it; revisit in v2. Do not build a CMS or markdown post system in v1.
 - **Shipping zone**: **US only** in v1. Do not enable international shipping options on eBay or Etsy listings created by the system. (This simplifies shipping config; revisit before any expansion.)
+- **Sales analytics dashboard (v1 scope)**: includes **all four** metrics — total revenue (month / year / all time), a chronological sales feed (what sold, where, when, for how much), time-to-sell broken down by type and era, and a slow-mover list of pieces unsold for >60 days. Build the dashboard read-only on top of the platform sale events that drive sold-status sync.
+- **Slow-mover handling**: **flag-only.** The system surfaces stale pieces on a "needs attention" view; the owner decides whether to drop price, re-photograph, or relist. Do **not** auto-drop prices or auto-relist.
+- **Mobile experience**: **mobile-first**. Design the storefront for phones first (followers will arrive from email and Instagram links), then scale up to desktop. The admin app can be desktop-first since Erica works on a computer to upload and edit.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
