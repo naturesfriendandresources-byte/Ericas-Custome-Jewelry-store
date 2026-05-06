@@ -35,6 +35,10 @@ The system supports:
 - **Sold-status sync**: **auto-remove**. When a piece sells on eBay or Etsy, the system must end the listing on the other platform and hide it from the portfolio. Critical because vintage pieces are 1-of-1 and double-selling must be prevented. Use platform webhooks/notifications where available, fall back to polling.
 - **Description generation**: **research + AI draft** for vintage pieces (the system attempts to identify hallmarks/designer/era from photos and notes, then proposes a draft Erica edits). For ceramics, AI rewrites owner-supplied facts. Owner always edits before publishing.
 - **Image processing v1**: simpler tools only — crop, rotate, color/exposure adjust, background cleanup. AI-assisted editing (auto-angles, generative cleanup) is planned for a later version, not v1.
+- **Storefront name**: **ELM Vintage**.
+- **Scale target**: medium — 50–300 active listings, 10–30 new pieces per month. Design for this; don't over-engineer for thousands.
+- **Hosting budget**: ~$20–50/month, so paid managed services (managed Postgres, object storage, always-on workers) are acceptable; we are not constrained to free tiers.
+- **Seller accounts**: Erica has active seller accounts on both **eBay** and **Etsy**, but does **not** yet have developer/API access on either. Registering an eBay Developer Program app and an Etsy app (with OAuth) is a prerequisite for any syndication work.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
