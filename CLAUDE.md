@@ -65,7 +65,7 @@ The system supports:
 - **Mobile experience**: **mobile-first**. Design the storefront for phones first (followers will arrive from email and Instagram links), then scale up to desktop. The admin app can be desktop-first since Erica works on a computer to upload and edit.
 - **Buyer bulk discount**: **store-wide, always on** — "buy 2+ pieces, get 10% off." System configures the standing promotion on both eBay (Multi-buy) and Etsy (Sales and discounts) and reapplies if it gets cleared. The threshold (2+) and discount (10%) live in admin settings and can be changed; the default is what's stated here.
 - **Voice samples**: deferred. Owner will provide 2–3 favorite existing descriptions when the AI description-drafting feature is being built. Until then, do not attempt to imitate a tone — block the feature on having samples.
-- **Admin bulk operations**: undecided — owner asked for clarification. Do not assume bulk-publish, bulk-price-change, or bulk-relist are in scope yet.
+- **Admin bulk operations**: **out of v1 scope.** Owner works one piece at a time in v1. Do not build bulk-publish, bulk-price-change, or bulk-relist. Revisit if it starts feeling tedious in production use.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
