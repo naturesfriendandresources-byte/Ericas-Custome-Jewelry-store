@@ -24,6 +24,7 @@ The system supports:
 1. **Image processing** — owner uploads photos; the system applies simple edits (crop, rotate, color/exposure, background cleanup) to produce listing-quality images. AI-assisted editing is a later version.
 2. **Multi-platform listing management** — the system syndicates listings to eBay and Etsy, and keeps a sold/unsold status synced across platforms and the portfolio site.
 3. **Description generation** — for vintage pieces, the system researches the item from photos and notes (hallmarks, designer, era) and proposes a draft description for the owner to edit. For ceramics, descriptions can come from owner-supplied facts plus AI rewrite.
+4. **Audience / CRM / email marketing** — the storefront grows a following: collect customer/follower emails (newsletter signup, post-purchase capture from eBay/Etsy where possible), maintain a customer database, and send email blasts (e.g. new arrivals, era-themed drops). Treat this as a first-class product capability, not an add-on.
 
 ## Decisions made so far
 
@@ -43,6 +44,10 @@ The system supports:
 - **Scale target**: medium — 50–300 active listings, 10–30 new pieces per month. Design for this; don't over-engineer for thousands.
 - **Hosting budget**: ~$20–50/month, so paid managed services (managed Postgres, object storage, always-on workers) are acceptable; we are not constrained to free tiers.
 - **Seller accounts**: Erica has active seller accounts on both **eBay** and **Etsy**, but does **not** yet have developer/API access on either. Registering an eBay Developer Program app and an Etsy app (with OAuth) is a prerequisite for any syndication work.
+- **Existing listings**: Erica chose to **re-list from scratch** rather than import current eBay/Etsy listings. The system is the new source of truth from day one; she will manually end old duplicates as she re-lists. Implication: no import job needed, but expect a transition period with stale listings on the platforms.
+- **Returns policy default**: **30-day returns, buyer pays return shipping**, applied as the default to every new listing on both eBay and Etsy. Owner can override per-listing later if needed.
+- **Categorization axes**: pieces are organized by **type** (necklace, bracelet, brooch, ring, ornament, magnet, pin) and by **era** (Victorian, Art Deco, Mid-Century, 80s, etc.). Maker/designer and material are **not** primary axes in v1, even though the AI-research step may surface them.
+- **Admin login**: assumed single-user (Erica only) for v1 unless changed later. The "customer database" mentioned in conversation is a marketing audience (follower emails), not a login system.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
