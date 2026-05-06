@@ -23,16 +23,16 @@ Treat these three capabilities as the product surface when discussing architectu
 ## Decisions made so far
 
 - **Form factor**: a web app / web store that Erica owns (not a desktop or mobile app).
-- **Listing destinations**: a web store we build, plus syndication to **eBay** and **Mercari**. Additional platforms under consideration: **Etsy** (strong fit, has a public API), **Poshmark**, **Depop**, **Facebook Marketplace / Instagram Shopping**, **Amazon Handmade**.
+- **Listing destinations**: a web store we build, plus syndication to **eBay** and **Etsy**. Mercari was considered and explicitly **dropped** because it has no public seller API.
+- **Platform integration rule**: **only integrate with platforms that have an official public listing API.** Browser-automation or third-party-paid integrations are out of scope. This rules out Mercari, Poshmark, and Depop unless they ship a real API.
+- **Listing data storage**: a **database owned by the web app** is the source of truth. Erica adds/edits pieces through the web UI; the same record drives the storefront and the eBay/Etsy syncs. Do not propose spreadsheets, CSV-as-source, or per-platform-API-as-source.
 - **Image processing v1**: simpler tools only — crop, rotate, color/exposure adjust, background cleanup. AI-assisted editing (auto-angles, generative cleanup) is planned for a later version, not v1.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
-- **Listing data storage**: undecided — owner needs more information before choosing. Do not assume a database, spreadsheet, or per-platform-API-as-source approach until this is settled.
 
-### Platform API caveats (important)
+### Future platforms to evaluate (still gated on the API-only rule)
 
-- **eBay** and **Etsy** have official listing APIs.
-- **Mercari** does **not** have a public seller API. Any Mercari integration will require browser automation or a third-party paid service — flag this trade-off before building.
-- **Poshmark** also lacks a public listing API.
+- **Facebook / Instagram Shopping** — Meta Commerce / Catalog API exists; could be in scope later.
+- **Amazon Handmade** — has APIs, but requires application/approval.
 
 ## Working in this repo
 
