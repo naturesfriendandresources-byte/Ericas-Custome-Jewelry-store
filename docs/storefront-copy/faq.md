@@ -30,19 +30,20 @@ If you collect a specific maker and want a closer look at a hallmark before buyi
 
 Costume jewelry is more delicate than fine jewelry. A few simple rules:
 
-- **Don't shower or swim in it.** Water is the enemy of foil-backed rhinestones and most plated metals.
+- **Don't shower or swim in it.** Water is rough on foil-backed rhinestones and on most plated metals.
 - **Don't spray perfume directly on it.** Spritz first, then put the jewelry on.
 - **Store flat in a soft pouch or lined drawer**, not in a tangled jewelry box. Stones can scratch each other.
-- **Polish with a dry soft cloth** if a piece looks dull. Skip the silver-polish dips — they're too aggressive for vintage.
+- **Polish with a dry soft cloth** if a piece looks dull. Skip the silver-polish dips on costume pieces — they can strip plating and damage stones.
 
 If you have a specific question about a piece you bought, message me — I'm happy to help.
 
 ## How do I care for the ceramic pieces?
 
-The ornaments, pins, and magnets I make are stoneware, fired hot, and meant to last. They're not delicate. That said:
+The ornaments, pins, and magnets I make are real fired ceramic — sturdy, but still ceramic, so a few simple rules apply:
 
-- **Don't put them in the dishwasher.** None of them need a dishwasher.
-- **Pins**: clean with a damp cloth.
+- **Don't put them in the dishwasher.** None of them need it.
+- **Clean with a damp cloth.** Don't soak.
+- **Handle them gently.** Like any ceramic, they can chip if dropped — the thinner sections on pins and ornaments are the most vulnerable spot.
 - **Magnets**: keep them off polished surfaces if the back has any rough spots — better safe than scratched.
 
 If anything chips, breaks, or arrives damaged, message me and I'll make it right.
@@ -71,6 +72,6 @@ Not yet. ELM Vintage is US-only for now. I'll announce it on the newsletter the 
 > - Replace the four `[…](#)` placeholder links with real ones (`/subscribe`, `/contact`, eBay/Etsy listings) once the routes exist.
 > - "Within two business days" — adjust to your real shipping cadence.
 > - "Years of looking" — replace with "since [year]" if you want a more concrete number.
-> - The care-for-ceramics section is generic; add anything specific to your firing temperature, glazes, or finishing process.
 > - If "I'll never send more than one email a week" is wrong, fix it (the system is set to a 7-day cap; if you want to say "monthly" or "occasionally" instead, both are fine).
 > - You may want a "Where do you source from?" answer; I left it out because some sellers prefer to keep that vague. Add if you want.
+> - **Care tips verification**: the vintage care tips in Q5 reflect standard published advice for vintage costume jewelry, but before publishing, cross-check with a published source (e.g. Christie Romero's *Warman's Jewelry* or a major auction house's vintage care guide) so you have something concrete to point to if a buyer pushes back. Same goes for the ceramic care lines in Q6.
