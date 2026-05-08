@@ -139,4 +139,15 @@ These anchor the About page, homepage hero, email tone, and the mockups we'll bu
 
 - Before writing code, confirm any still-undecided items above with the user (especially listing-data storage and the tech stack).
 - There is no `package.json`, `requirements.txt`, `Makefile`, or equivalent — when one is added, update this file with the actual build / test / lint / run commands.
-- The active development branch (per task instructions when this file was created) is `claude/add-claude-documentation-vl0eJ`. The default branch is `main`.
+- The active development branch is `claude/add-claude-documentation-vl0eJ`. The default branch is `main`.
+
+### Merge-to-main plan
+
+The owner has chosen to merge the working branch into `main` at a **"design-phase-complete" milestone** rather than incrementally or only at v1 launch. The criteria for that milestone are:
+
+1. About-page voice rewritten from a real owner-provided voice sample (currently waiting on the owner to paste a sample).
+2. FAQ tweaks from the owner incorporated.
+3. eBay Developer Program registration is in flight (account created, sandbox keyset issued).
+4. Etsy app registration is in flight (account created and submitted for review).
+
+When all four are satisfied, surface a "ready to merge to main?" prompt. The owner will choose whether the merge happens via direct git or via a GitHub Pull Request (the owner has not authorized PR creation in advance — wait for explicit approval before opening one).
