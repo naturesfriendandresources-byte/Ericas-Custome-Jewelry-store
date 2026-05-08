@@ -110,6 +110,14 @@ The system supports:
 - **eBay / Etsy seller account identifiers**: **placeholders during development**, real values populated at launch. Plan the data model so seller-account name/ID is a setting (not hardcoded), and "View on eBay" / "View on Etsy" links on the storefront read from that setting.
 - **Tech stack**: deferred. Do not pick a language/framework yet; revisit once image-tool scope and listing-API integrations are clearer.
 
+## Brand seeds
+
+These anchor the About page, homepage hero, email tone, and the mockups we'll build during the visual pass.
+
+- **Origin story**: heirloom / family connection drove Erica to vintage. The "why" is keeping a piece of family/personal history alive and helping pieces find homes that will appreciate them. Use as the anchor for the About page and a recurring thread in email blasts.
+- **Visual mood**: **warm and editorial**, like a vintage magazine. Cream / warm beige / muted gold palette; serif headings (consider an old-style or transitional serif like Garamond, Caslon, or Lyon); optional handwriting accents; slightly textured backgrounds. Avoid stark white minimalism (too modern) and avoid heavy dark/collector-grade (too austere).
+- **Working tagline**: *"A small shop of pieces I love — vintage finds and ceramics from my studio."* Treat as a starting point for wordsmithing; the personal/inviting tone is the brand hook.
+
 ### Future platforms to evaluate (still gated on the API-only rule)
 
 - **Facebook / Instagram Shopping** — Meta Commerce / Catalog API exists; could be in scope later.
