@@ -114,9 +114,13 @@ The system supports:
 
 These anchor the About page, homepage hero, email tone, and the mockups we'll build during the visual pass.
 
-- **Origin story**: heirloom / family connection drove Erica to vintage. The "why" is keeping a piece of family/personal history alive and helping pieces find homes that will appreciate them. Use as the anchor for the About page and a recurring thread in email blasts.
+- **Origin story**: ELM Vintage is built on a **mother-daughter collecting tradition** — Erica and her mom collect vintage costume jewelry together. This is the literal story for the About page and the recurring thread for email blasts; it's not a generic "heirloom feeling," it's a real shared practice. The ceramics side is a **quiet hobby that grew alongside the collecting** — a separate, parallel creative thread that complements the curation.
 - **Visual mood**: **warm and editorial**, like a vintage magazine. Cream / warm beige / muted gold palette; serif headings (consider an old-style or transitional serif like Garamond, Caslon, or Lyon); optional handwriting accents; slightly textured backgrounds. Avoid stark white minimalism (too modern) and avoid heavy dark/collector-grade (too austere).
 - **Working tagline**: *"A small shop of pieces I love — vintage finds and ceramics from my studio."* Treat as a starting point for wordsmithing; the personal/inviting tone is the brand hook.
+- **Signature unboxing experience**: every shipment Erica sends already includes a **handmade ceramic piece (brooch / pin / small object) + a thank-you card** as a free gift with the purchase. This is the brand's strongest differentiator and must be preserved end-to-end. Implications for the system:
+  - The **online experience must mirror this offline ritual**. Owner's framing: "the email blast is the thank you, early access is the gift." Build the welcome email and the new-arrivals blast so they feel like the digital equivalent of opening a package and finding the unexpected ceramic — warm, hand-touched, generous.
+  - The **admin should help track gift-with-purchase**: when a sale happens, the "ship today" view should suggest which ceramic to include (probably oldest unsold or thematically matched), record which ceramic was bundled with which order, and either decrement the ceramic from inventory or mark it `GIFTED` (using the existing no-sale removal reason tag). This is a v1 feature, not a v2 nice-to-have, because the gift practice is core to the brand promise.
+- **Goal at 12 months**: **meaningful side income** (a few hundred to a few thousand dollars/month). Confirms the medium-scale sizing already chosen (50–300 active listings, 10–30 new pieces/month). Don't over-engineer for replace-a-full-time-income volumes.
 
 ### Future platforms to evaluate (still gated on the API-only rule)
 
