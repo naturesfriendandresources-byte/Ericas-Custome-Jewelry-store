@@ -50,13 +50,13 @@ If anything chips, breaks, or arrives damaged, message me and I'll make it right
 
 ## How do I get notified about new pieces?
 
-[Join the newsletter](#). Subscribers get a 24-hour preview of every new piece before it goes up on eBay, Etsy, or the public storefront — meaning you have first dibs on something I just photographed. The list also gets the occasional themed email (Art Deco drops, Mid-Century rounds, etc.).
+[Join the newsletter](#). Subscribers get a 24-hour head start on every new piece — you'll see it a full day before it goes up on eBay, Etsy, or the public storefront.
 
 I'll never send more than one email a week, and you can unsubscribe in one click.
 
 ## I love a piece you've already sold. Can I get something similar?
 
-Maybe! Vintage is one-of-a-kind by definition, but I'm always hunting, and I source by era and style. The best move is to [join the newsletter](#) and tag the eras you're drawn to — when something similar comes in, you'll see it before anyone else.
+Maybe! Vintage is one-of-a-kind by definition, but I'm always hunting, and I source by era and style. The best move is to [join the newsletter](#) — when something similar comes in, you'll see it before anyone else.
 
 ## Do you take custom orders?
 
