@@ -62,7 +62,8 @@ The four capabilities:
 - Frequency cap: hard 1-blast-per-subscriber-per-7-days.
 - Email sender domain: custom domain after launch, with SPF/DKIM/DMARC setup wizard.
 - Post-purchase email capture, both compliant channels: (a) printed thank-you card with QR/short URL, (b) automated post-sale message via eBay/Etsy seller-to-buyer messaging APIs. **Never auto-add a buyer to the list without explicit opt-in.**
-- Voice for emails: same voice samples as listings.
+- Voice for emails: same voice samples as listings (single "I" voice — mom is part of the origin story but not co-credited).
+- **Welcome email shape**: short personal note (2–4 sentences) + one currently-active featured piece with photo + price + storefront link + a one-line reminder that subscribers see new pieces 24 hours before everyone else. Not a multi-email series; not a long letter; not a full inventory gallery.
 
 ### Public storefront
 - Mobile-first, vintage aesthetic (specific look picked from real mockups during build).
@@ -100,6 +101,7 @@ The four capabilities:
 
 ## Out of v1 scope (deferred)
 
+- **Gift-with-purchase tracking.** Erica continues to include a handmade ceramic + thank-you card in every shipment, off-system. The admin does not suggest pairings, log them, or decrement ceramic inventory based on gifts. Revisit only if the off-system practice gets error-prone.
 - AI-assisted image editing (auto-angles, generative cleanup, multi-angle synthesis).
 - Importing existing eBay/Etsy listings.
 - Admin bulk operations (bulk-publish, bulk-price-change, bulk-relist).
