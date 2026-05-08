@@ -63,7 +63,7 @@ The four capabilities:
 - Email sender domain: custom domain after launch, with SPF/DKIM/DMARC setup wizard.
 - Post-purchase email capture, both compliant channels: (a) printed thank-you card with QR/short URL, (b) automated post-sale message via eBay/Etsy seller-to-buyer messaging APIs. **Never auto-add a buyer to the list without explicit opt-in.**
 - Voice for emails: same voice samples as listings (single "I" voice — mom is part of the origin story but not co-credited).
-- **Welcome email shape**: short personal note (2–4 sentences) + one currently-active featured piece with photo + price + storefront link + a one-line reminder that subscribers see new pieces 24 hours before everyone else. Not a multi-email series; not a long letter; not a full inventory gallery.
+- **Welcome email shape**: crisp and minimal — 2–3 sentences thanking the new subscriber, a "browse the shop" button to the storefront, and a one-line reminder that subscribers see new pieces 24 hours before everyone else. No featured piece; that lives in regular new-arrivals blasts.
 
 ### Public storefront
 - Mobile-first, vintage aesthetic (specific look picked from real mockups during build).
